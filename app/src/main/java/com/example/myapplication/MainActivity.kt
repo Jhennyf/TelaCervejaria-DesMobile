@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val cervejas = listOf("Heineken", "Budweiser", "Corona", "Skol", "Brahma")
+        val cervejas = listOf("Heineken", "Budweiser", "Corona", "Skol", "Brahma", "Devasa")
 
         val button: btnCerveja = findViewById(R.id.btnCerveja)
         button.setOnClickListener {
